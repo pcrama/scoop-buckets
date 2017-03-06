@@ -1,0 +1,10 @@
+{ "version": "6.9.1.2306"
+, "architecture": {
+        "64bit": {"url": "http://multicommander.com/files/updates/MultiCommander_x64_Portable_(6.9.1.2306).zip"}
+      , "32bit": {"url": "http://multicommander.com/files/updates/MultiCommander_win32_Portable_(6.9.1.2306).zip"}
+  }
+, "bin": "MultiCommander.exe"
+, "hash": "136b43925f73233cb37ee4d0a46673feb91f4c652da80ae9548713d0a58ae0f9"
+, "homepage": "http://multicommander.org"
+, "license": "GPL3"
+}
