@@ -1,0 +1,7 @@
+{ "version": "1.10.1"
+, "url": "https://sourceforge.net/projects/workrave/files/workrave/1.10.1/workrave-win32-v1.10.1-installer.exe"
+, "installer": {"file": "workrave-win32-v1.10.1-installer.exe"}
+, "hash": "b8882c19bcf455919765eeb897a399be66d026600f31923d5ea62744c7e38f17"
+, "homepage": "http://www.workrave.org"
+, "license": "GPL3"
+}
