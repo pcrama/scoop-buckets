@@ -1,0 +1,7 @@
+{ "version": "2.48.4"
+, "url": "https://github.com/bcpierce00/unison/releases/download/2.48.4/Unison-Windows-2.48.4.zip"
+, "bin": [["unison 2.48.4 text.exe", "unison"]]
+, "hash": "8b037bddb50c9b0337782da399c5419b9c06b7aa955ecfb9edfcabfc902bdfb2"
+, "homepage": "http://www.cis.upenn.edu/~bcpierce/unison/"
+, "license": "GPL3"
+}
