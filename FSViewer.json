@@ -1,11 +1,17 @@
-﻿{
-    "version":  "6.2",
+{
+    "version": "6.2",
     "license": "Freeware",
-    "url":  "http://www.faststonesoft.net/DN/FSViewer62.zip",
+    "url": "http://www.faststonesoft.net/DN/FSViewer62.zip",
+    "extract_dir": "FSViewer62",
     "homepage": "http://www.faststone.org/index.htm",
-    "hash":  "2397f9a45e3bc0fc078b31984c3be7cf375201d0313973e22f9493ada5a3859f",
+    "hash": "2397f9a45e3bc0fc078b31984c3be7cf375201d0313973e22f9493ada5a3859f",
     "checkver": {
         "url": "http://www.faststone.org/FSViewerDownload.htm",
         "re": "FastStone Image Viewer ([0-9.]+)"
-    }
+    },
+    "autoupdate": {
+        "url": "http://www.faststonesoft.net/DN/FSViewer$cleanVersion.zip",
+        "extract_dir": "FSViewer$cleanVersion"
+    },
+    "bin": "FSViewer.exe"
 }
