@@ -1,7 +1,11 @@
 { "version": "1.10.1"
 , "url": "https://sourceforge.net/projects/workrave/files/workrave/1.10.1/workrave-win32-v1.10.1-installer.exe"
-, "installer": {"args": ["/SP-", "/SILENT", "/NORESTART"]}
+, "installer": {"args": ["/SP-", "/SILENT", "/NORESTART", "/DIR=\"$dir\"", "/NOICONS"]}
+, "uninstaller" : {"file": "unins000.exe"}
 , "hash": "b8882c19bcf455919765eeb897a399be66d026600f31923d5ea62744c7e38f17"
 , "homepage": "http://www.workrave.org"
 , "license": "GPL3"
+, "bin": "lib\\workrave.exe"
+, "notes": "Start workrave manually once, go to Preferences > User Interface
+and enable Start Workrave on Windows Startup"
 }
