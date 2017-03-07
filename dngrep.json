@@ -1,0 +1,22 @@
+﻿{
+    "version": "2.7.2",
+    "license": "GPL2",
+    "url": "http://dngrep.github.io/",
+    "homepage": "http://dngrep.github.io/",
+    "bin": ["dnGREP\\dnGREP.exe", "dngrep"],
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/dnGrep/dnGrep/releases/download/v2.7.2-ish/dnGREP.2.7.2.x64.msi",
+            "hash": ["c6028a7fc60904d16a681c582fd667b50e290724a6031501d6980eedba9bc559",
+                     "sha1:e019e65174418a6c8f42509a1600ca0c417b7715"]
+        },
+        "32bit": {
+            "url": "https://github.com/dnGrep/dnGrep/releases/download/v2.7.2-ish/dnGREP.2.7.2.x86.msi",
+            "hash": ["fc275cee51d1336f86cadd93fdb9513e8a95a1f8eb099c8f00faf521742b206c",
+                     "sha1:4191f69ccfe10d40085c543ada4e16e98c1b0644"]
+        }
+    },
+    "checkver": {
+        "github": "https://github.com/dnGrep/dnGrep"
+    }
+}
