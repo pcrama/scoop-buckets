@@ -6,6 +6,16 @@
 , "homepage": "http://www.workrave.org"
 , "license": "GPL3"
 , "bin": "lib\\workrave.exe"
-, "notes": "Start workrave manually once, go to Preferences > User Interface
-and enable Start Workrave on Windows Startup"
+, "post_install":
+  "$choice = '';
+   while ($choice -notmatch '[y|n]'){
+       $choice = read-host 'Do you want to enable Workrave on logon? (Y/N)'
+   }
+   $workrave_autorun = 'HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run'
+   if ($choice -eq 'y') {
+       New-ItemProperty -Path $workrave_autorun -Name 'Workrave' -Value ((scoop which workrave) -replace '~', \"$home\") -Force
+   } else {
+       Remove-ItemProperty -Path $workrave_autorun -Name 'Workrave' -Force
+   }
+   Write-Host 'You can control this feature from the Workrave options (Preferences > User Interface)'"
 }
