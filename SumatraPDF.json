@@ -1,0 +1,32 @@
+{
+    "version": "3.1.2",
+    "license": "(A)GPL3,BSD",
+    "architecture": {
+        "64bit": {
+            "url": "http://www.sumatrapdfreader.org/dl/SumatraPDF-3.1.2-64.zip",
+            "hash": "3c07b3fe267251d32a17f67ed5070018d69c8436df33e6db3ce757889b734676"
+        },
+        "32bit": {
+            "url": "http://www.sumatrapdfreader.org/dl/SumatraPDF-3.1.2.zip",
+            "hash": "4cac356d04f999c7134d32122c3a031f8e7d1f1d09424a00b9f19b8c05b652f1"
+        }
+    },
+    "homepage": "http://www.sumatrapdfreader.org/",
+    "bin": "SumatraPDF.exe",
+    "checkver": {
+        "url": "http://www.sumatrapdfreader.org/sumatra.js",
+        "re": "var *gSumVer *= *['\"]([^'\"]*)['\"]"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "http://www.sumatrapdfreader.org/dl/SumatraPDF-$version-64.zip",
+                "hash": "download"
+            },
+            "32bit": {
+                "url": "http://www.sumatrapdfreader.org/dl/SumatraPDF-$version.zip",
+                "hash": "download"
+            }
+        }
+    }
+}
