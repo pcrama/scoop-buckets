@@ -1,0 +1,21 @@
+﻿{
+    "version": "3.3.14.2",
+    "license": "https://www.autoitscript.com/autoit3/docs/license.htm",
+    "extract_dir": "install",
+    "url": "https://www.autoitscript.com/cgi-bin/getfile.pl?autoit3/autoit-v3.zip",
+    "homepage": "https://www.autoitscript.com/site/",
+    "hash": "44a2ba6b723cbc5eec389ea07ac43d696aeff01f0f1a62788aed1d1ce992a886",
+    "bin": [
+          "Au3Check.exe"
+        , "Au3Info.exe"
+        , "Au3Info_x64.exe"
+        , "Aut2Exe/Aut2exe.exe"
+        , "Aut2Exe/Aut2exe_x64.exe"
+        , "AutoIt3.exe"
+        , "AutoIt3Help.exe"
+        , "AutoIt3_x64.exe"],
+    "checkver": {
+          "url": "https://www.autoitscript.com/site/autoit/downloads/"
+        , "re": "Latest version:<[^>]*> *v*([1-9][0-9.]*)"
+    }
+}
