@@ -1,0 +1,12 @@
+﻿{
+    "version": "1.7.1.2",
+    "license": "freeware",
+    "url": "http://stahlworks.com/dev/sfk/dview.exe",
+    "homepage": "http://stahlworks.com/dev/depeche-view.html",
+    "hash": "43e99e22a437dee87aff3717ff8b7e427ee60c0eb619df71bce140ea2f8d19d9",
+    "bin": "dview.exe",
+    "checkver": {
+        "url": "http://stahlworks.com/dev/depeche-view.html",
+        "re": "current *version *is *<[^>]*>*([1-9][0-9.]*)"
+    }
+}
