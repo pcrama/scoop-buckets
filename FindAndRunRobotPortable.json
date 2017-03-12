@@ -1,0 +1,12 @@
+﻿{
+    "version": "2.226.01",
+    "license": "?",
+    "url": "http://www.donationcoder.com/Software/Mouser/findrun/downloads/FindAndRunRobotPortable.zip",
+    "homepage": "http://www.donationcoder.com/Software/Mouser/findrun/index.html",
+    "hash": "03acb7dbe6688fa6e643ecfb4e8f80b70d98b94a9b86a4aa660a83bd8d18173d",
+    "bin": "FindAndRunRobot.exe",
+    "checkver": {
+        "url": "http://www.donationcoder.com/Software/Mouser/findrun/index.html",
+        "re": "Download v([1-9][0-9.]*)"
+    }
+}
