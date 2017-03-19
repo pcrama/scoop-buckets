@@ -1,0 +1,26 @@
+{
+    "hash": [
+        "f643369c71c409e5ca47ac3b7b369f09b43098d1472aa5cb3750b8bb58fb78d6",
+        "825590031ef76181dbae253e70dbdcab5c3ad419748e45d9c017d0fe54ae9cc4"
+    ],
+    "bin": "wdscli.exe",
+    "version": "1",
+    "url": [
+        "https://gist.githubusercontent.com/pcrama/a6ff54f759e1cc3d0ba3503184416d6c/raw/aa0858ef126aaa83950d04bebccd33dcc3884c01/wdscli.cs",
+        "https://gist.githubusercontent.com/pcrama/f236c1e8a3ecb03add98c11d4a534531/raw/8ed2ab2ede55ded9158993b3541be23b9d83befd/CompileSimply-CSharp.ps1"
+    ],
+    "architecture": {
+        "64bit": {
+            "installer": {
+                "file": "CompileSimply-CSharp.ps1",
+                "args": ["$dir", "wdscli.cs", "64"]
+            }
+        },
+        "32bit": {
+            "installer": {
+                "file": "CompileSimply-CSharp.ps1",
+                "args": ["$dir", "wdscli.cs", ""]
+            }
+        }
+    }
+}
