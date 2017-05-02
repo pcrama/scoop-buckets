@@ -1,19 +1,19 @@
 ﻿{
-    "version": "2.7.2",
+    "version": "2.8.16.0",
     "license": "GPL2",
     "url": "http://dngrep.github.io/",
     "homepage": "http://dngrep.github.io/",
     "bin": ["dnGREP\\dnGREP.exe", "dngrep"],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dnGrep/dnGrep/releases/download/v2.7.2-ish/dnGREP.2.7.2.x64.msi",
-            "hash": ["c6028a7fc60904d16a681c582fd667b50e290724a6031501d6980eedba9bc559",
-                     "sha1:e019e65174418a6c8f42509a1600ca0c417b7715"]
+            "url": "https://github.com/dnGrep/dnGrep/releases/download/v2.8.16.0/dnGREP.2.8.16.x64.msi",
+            "hash": ["025bd4101826932e954aacd3fe6aee9927a7198feeffb24f82fbe5d578502d18",
+                     "sha1:55f041cc06e3edbc85bcb9331b7646e0e503e671"]
         },
         "32bit": {
-            "url": "https://github.com/dnGrep/dnGrep/releases/download/v2.7.2-ish/dnGREP.2.7.2.x86.msi",
-            "hash": ["fc275cee51d1336f86cadd93fdb9513e8a95a1f8eb099c8f00faf521742b206c",
-                     "sha1:4191f69ccfe10d40085c543ada4e16e98c1b0644"]
+            "url": "https://github.com/dnGrep/dnGrep/releases/download/v2.8.16.0/dnGREP.2.8.16.x86.msi",
+            "hash": ["ce4753735148e1f48fe0e1cd9aa4dfd019082f4f43c38c4ff4157f08d346700c",
+                     "sha1:f7bf3801fc04eb32cf17ee33e85d37899f98534c"]
         }
     },
     "checkver": {
