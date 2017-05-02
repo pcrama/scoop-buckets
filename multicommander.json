@@ -1,10 +1,30 @@
-{ "version": "6.9.1.2306"
-, "architecture": {
-        "64bit": {"url": "http://multicommander.com/files/updates/MultiCommander_x64_Portable_(6.9.1.2306).zip"}
-      , "32bit": {"url": "http://multicommander.com/files/updates/MultiCommander_win32_Portable_(6.9.1.2306).zip"}
-  }
-, "bin": "MultiCommander.exe"
-, "hash": "136b43925f73233cb37ee4d0a46673feb91f4c652da80ae9548713d0a58ae0f9"
-, "homepage": "http://multicommander.org"
-, "license": "GPL3"
+{
+    "version": "7.0.0.2340",
+    "architecture": {
+        "64bit": {
+            "url": "http://multicommander.com/files/updates/MultiCommander_x64_Portable_(7.0.0.2340).zip",
+            "hash": "3f37ebe53c0e14d434c39019bf2491a9a6481de5f264aea1f0f051d3e2b91b8e"
+        },
+        "32bit": {
+            "url": "http://multicommander.com/files/updates/MultiCommander_win32_Portable_(7.0.0.2340).zip",
+            "hash": "6b13eb0db743f596584c500b69634ebcd91eb1c3716bc2b7b15d93e35f440565"
+        }
+    },
+    "bin": "MultiCommander.exe",
+    "homepage": "http://multicommander.com",
+    "license": "GPL3",
+    "checkver": {
+        "url": "http://multicommander.com/downloads",
+        "re": "href=\"/files/updates/MultiCommander_win32_Portable_\\(([1-9][0-9]*\\.[0-9]*\\.[0-9]*\\.[0-9]*)\\)\\.zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "http://multicommander.com/files/updates/MultiCommander_x64_Portable_($version).zip"
+            },
+            "32bit": {
+                "url": "http://multicommander.com/files/updates/MultiCommander_win32_Portable_($version).zip"
+            }
+        }
+    }
 }
