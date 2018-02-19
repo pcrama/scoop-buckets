@@ -1,8 +1,8 @@
-﻿{ "version": "3.12"
+﻿{ "version": "4.66"
 , "license": "https://justgetflux.com/news/pages/eula/"
 , "url": "https://justgetflux.com/flux-setup.exe"
 , "homepage": "https://justgetflux.com"
-, "hash": "2696c35394ca9125098458fc080461b6c841d6d8fd263b40270d21a8823c65b0"
+, "hash": "79fc802d9225d98ee15a288393bb2d4708575315b9edad33dbfcf29d1af578b1"
 , "bin": "flux.exe"
 , "installer": {"args": ["/S", "/D=$dir"]}
 , "uninstaller": {"file": "uninstall.exe"}
