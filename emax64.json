@@ -1,11 +1,11 @@
 {
     "homepage": "https://github.com/m-parashar/emax64",
     "license": "GPLv3",
-    "url": "https://github.com/m-parashar/emax64/releases/download/20180307/emax64-v26-bin-20180307.7z",
-    "version": "20180307",
-    "hash": "830a12dc990af17468a78deffd940bbcda7cef5f0e7c010d647b564753d74d2a",
+    "url": "https://github.com/m-parashar/emax64/releases/download/20180406/emax64-v26.1-bin-20180406.7z",
+    "version": "20180406",
+    "hash": "649777b7b51bf515358c09b74edbcaffbd24d79ef0b739b9e2341654cef8bcde",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/m-parashar/emax64/releases/download/$version/emax64-v26-bin-$version.7z"
+        "url": "https://github.com/m-parashar/emax64/releases/download/$version/emax64-v26.1-bin-$version.7z"
     }
 }
