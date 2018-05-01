@@ -1,17 +1,19 @@
 {
-    "version": "7.7.0.2404",
+    "version": "8.0.0.2450",
     "architecture": {
         "64bit": {
-            "url": "http://multicommander.com/files/updates/MultiCommander_x64_Portable_(7.7.0.2404).zip",
-            "hash": "1e6b810f695aa2ea6cd5020f3cf01c93ed9e52d5d44cbd5f6b16f0715976c5bd"
+            "url": "http://multicommander.com/files/updates/MultiCommander_x64_Portable_(8.0.0.2450).zip",
+            "hash": "25073333a29f3ddb6cfe8145b9a99ce4483ec8f9446c740b2b19e666bb294ab7"
         },
         "32bit": {
-            "url": "http://multicommander.com/files/updates/MultiCommander_win32_Portable_(7.7.0.2404).zip",
-            "hash": "9419590bdd6e6e8efdf92125068937d23b006eb47c2379bcfebfd2812298d006"
+            "url": "http://multicommander.com/files/updates/MultiCommander_win32_Portable_(8.0.0.2450).zip",
+            "hash": "39dd01ec8c7154bd5094a7d44fe77f7fcf8bfae04f7d6cf3fef7736c9b44924f"
         }
     },
     "bin": "MultiCommander.exe",
-    "persist": ["Config"],
+    "persist": [
+        "Config"
+    ],
     "homepage": "http://multicommander.com",
     "license": "GPL3",
     "checkver": {
