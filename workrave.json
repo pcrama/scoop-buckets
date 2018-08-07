@@ -15,7 +15,7 @@
    if ($choice -eq 'y') {
        New-ItemProperty -Path $workrave_autorun -Name 'Workrave' -Value ((scoop which workrave) -replace '~', \"$home\") -Force
    } else {
-       Remove-ItemProperty -Path $workrave_autorun -Name 'Workrave' -Force
+       Remove-ItemProperty -Path $workrave_autorun -Name 'Workrave' -Force -ErrorAction Continue
    }
    Write-Host 'You can control this feature from the Workrave options (Preferences > User Interface)'"
 }
