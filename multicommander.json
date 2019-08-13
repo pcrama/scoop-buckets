@@ -1,13 +1,13 @@
 {
-    "version": "8.3.0.2469",
+    "version": "9.0.0.2532",
     "architecture": {
         "64bit": {
-            "url": "http://multicommander.com/files/updates/MultiCommander_x64_Portable_(8.3.0.2469).zip",
-            "hash": "b5ef5e28b697d13d4b756d99b6aa7d9c204df6304382be547779c524afefeb0b"
+            "url": "http://multicommander.com/files/updates/MultiCommander_x64_Portable_(9.0.0.2532).zip",
+            "hash": "sha1:3b4fb14e046fa61ecc9b5c9a5788ff437ccaebd3"
         },
         "32bit": {
-            "url": "http://multicommander.com/files/updates/MultiCommander_win32_Portable_(8.3.0.2469).zip",
-            "hash": "e8f4c77b6e18af61e2f36b24595aa92f959d6737ca9e13d0302fa7fecca0f5bc"
+            "url": "http://multicommander.com/files/updates/MultiCommander_win32_Portable_(9.0.02532).zip",
+            "hash": "sha1:c49fddfe4e1cdd37510ed0ae83fc6c8798116798"
         }
     },
     "bin": "MultiCommander.exe",
