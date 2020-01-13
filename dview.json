@@ -1,9 +1,9 @@
 ﻿{
-    "version": "1.7.2",
+    "version": "1.7.3",
     "license": "freeware",
     "url": "http://stahlworks.com/dev/sfk/dview.exe",
     "homepage": "http://stahlworks.com/dev/depeche-view.html",
-    "hash": "01e4f97e81a72893083517d166ee0f22b52570f150231602c2340a07130c2893",
+    "hash": "5d5fed3dfec478a72e63779cca55dfcc37a6b4f1b77267e464ac3c41275bc66e",
     "bin": "dview.exe",
     "checkver": {
         "url": "http://stahlworks.com/dev/depeche-view.html",
